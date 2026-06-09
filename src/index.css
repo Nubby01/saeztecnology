@@ -563,6 +563,7 @@ body {
   opacity: 0.65;
 }
 
+.page-content .btn-primary,
 .contacto-formulario .btn-primary,
 .cart-section .btn-primary,
 .monedas-personalizado .btn-primary,
@@ -592,11 +593,13 @@ body {
   box-shadow: 0 4px 14px rgba(124, 58, 237, 0.32);
 }
 
+.page-content .btn-primary:hover,
 .contacto-formulario .btn-primary:hover,
 .cart-section .btn-primary:hover,
 .monedas-personalizado .btn-primary:hover,
 .modal-content .btn-primary:hover,
 .site-navbar .btn-registro:hover,
+.page-content .btn-primary:focus-visible,
 .contacto-formulario .btn-primary:focus-visible,
 .cart-section .btn-primary:focus-visible,
 .monedas-personalizado .btn-primary:focus-visible,
