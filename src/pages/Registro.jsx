@@ -82,7 +82,7 @@ export default function Registro() {
             e.terminos = 'Debe aceptar los términos y condiciones para registrarse.';
 
         if (edadVerificada === null)
-            e.edad = 'Calcula tu edad más abajo para poder crear tu cuenta.';
+            e.edad = 'Es obligatorio que calcule su edad para poder crear tu cuenta.';
         else if (edadVerificada < MAYORIA_EDAD)
             e.edad = 'Debes ser mayor de 18 años para crear una cuenta.';
 
